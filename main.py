@@ -1,6 +1,5 @@
 #coding=UTF-8
 import tkinter
-import time
 
 from client import *
 

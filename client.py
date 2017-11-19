@@ -2,6 +2,7 @@
 import socket
 import threading
 from misc import *
+import time
 
 class Client(socket.socket,threading.Thread):
 	def __init__(self,root,pseudo,cible):
